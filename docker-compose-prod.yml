@@ -1,6 +1,7 @@
 version: '3.3'
 services:
   frontend:
+    build: .
     image: rattikan042/234-deploylab-frontend:latest
     ports:
-      - "9999:80"
+      - "0.0.0.0:9999:80"
